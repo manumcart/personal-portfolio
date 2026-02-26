@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO - Modifica aquí el título y descripción de tu sitio -->
+    <title>MANU art</title>
+    <meta name="description" content="Portfolio of Manuel Marroquin, a versatile digital 3D artist with over 10 years of experience in character creation, motion graphics, and visual effects.">
+    <meta name="keywords" content="3D artist, digital artist, character creation, motion graphics, portfolio, Guatemala">
+    <meta name="author" content="José Manuel Marroquin">
+    
+    <!-- Open Graph - Modifica aquí la imagen de portada para redes sociales -->
+    <meta property="og:title" content="Manu - Digital 3D Artist">
+    <meta property="og:description" content="Digital Art Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdnb.artstation.com/p/assets/images/images/050/358/035/large/manuel-marroquin-mecha-crp.jpg?1654664755">
+    
+    <!-- Favicon - Modifica aquí si quieres cambiar el ícono de la pestaña -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Barra de progreso al hacer scroll -->
+<div class="scroll-progress"></div>
+
+<!-- Botón de cambiar tema claro/oscuro -->
+<button class="theme-toggle" aria-label="Toggle theme">
+  <i class="fas fa-adjust"></i>
+</button>
+
+<!-- Navegación -->
+<nav class="navbar">
+  <a href="#home" class="logo">MANU<span class="dot">.</span></a>
+  <ul class="nav-links">
+    <!-- Modifica aquí los enlaces del menú -->
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#motion">Motion</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section - Sección de portada -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <!-- Modifica aquí tu subtítulo -->
+    <h2 class="subtitle">Digital 3D Artist</h2>
+    <!-- El texto se escribe automáticamente con efecto typewriter -->
+    <h1 class="main-title">
+      <span id="typewriter"></span><span class="cursor">|</span>
+    </h1>
+    <div class="hero-btn-container">
+      <!-- Modifica aquí el texto del botón principal -->
+      <a href="#about" class="hero-cv-button">More about me</a>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section - Galería de trabajos -->
+<section id="portfolio" class="portfolio-section">
+  <h2 class="section-title"></h2>
+  <div class="work-grid">
+
+    <!-- IMAGEN 1 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img1" class="work-item">
+      <img src="https://cdnb.artstation.com/p/assets/images/images/050/358/035/large/manuel-marroquin-mecha-crp.jpg?1654664755" alt="Mecha Character Design 1">
+    </a>
+    <div id="img1" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/050/358/035/large/manuel-marroquin-mecha-crp.jpg?1654664755" alt="Mecha Character Design 1">
+      </div>
+    </div>
+
+    <!-- IMAGEN 2 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img2" class="work-item">
+      <img src="https://i.postimg.cc/gjSnVz0M/Orange-Robot-Comp1.png" alt="Mecha Character Design 2">
+    </a>
+    <div id="img2" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://i.postimg.cc/gjSnVz0M/Orange-Robot-Comp1.png" alt="Mecha Character Design 2">
+      </div>
+    </div>
+
+    <!-- IMAGEN 3 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img3" class="work-item">
+      <img src="https://i.postimg.cc/0QC6NdRc/mecha-concept-2-1.png" alt="Mecha Character Design 3">
+    </a>
+    <div id="img3" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://i.postimg.cc/0QC6NdRc/mecha-concept-2-1.png" alt="Mecha Character Design 3">
+      </div>
+    </div>
+
+    <!-- IMAGEN 4 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img4" class="work-item">
+      <img src="https://cdna.artstation.com/p/assets/images/images/050/358/398/large/manuel-marroquin-render-side.jpg?1654666505" alt="Creature box">
+    </a>
+    <div id="img4" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://cdna.artstation.com/p/assets/images/images/050/358/398/large/manuel-marroquin-render-side.jpg?1654666505" alt="Creature Box">
+      </div>
+    </div>
+
+    <!-- IMAGEN 5 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img5" class="work-item">
+      <img src="https://cdna.artstation.com/p/assets/images/images/062/885/568/large/manuel-marroquin-plant-battery-render-1.jpg?1684195630" alt="Plant Robot">
+    </a>
+    <div id="img5" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://cdna.artstation.com/p/assets/images/images/062/885/568/large/manuel-marroquin-plant-battery-render-1.jpg?1684195630" alt="Plant Robot">
+      </div>
+    </div>
+
+    <!-- IMAGEN 6 - Modifica aquí la URL de la imagen y el texto alternativo -->
+    <a href="#img6" class="work-item">
+      <img src="https://i.postimg.cc/PtJH1Y7D/Babyyoda-Fotor.png" alt="Baby Yoda 3D">
+    </a>
+    <div id="img6" class="lightbox">
+      <a href="#_" class="close-btn">&times;</a>
+      <a href="#_" class="close-area"></a>
+      <div class="lightbox-content">
+        <img src="https://i.postimg.cc/PtJH1Y7D/Babyyoda-Fotor.png" alt="Baby Yoda 3D">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Motion Graphics Section - Sección de videos -->
+<section id="motion" class="motion-section">
+  <h2 class="section-title">MOTION</h2>
+  <div class="motion-grid reveal-section">
+    
+    <!-- VIDEO 1 - Modifica aquí la URL del video de Vimeo -->
+    <div class="motion-item">
+      <div class="video-wrapper" style="padding-bottom: 177.78%;">
+        <iframe src="https://player.vimeo.com/video/1166220749?background=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                title="Doble Amarilla Logo Animation"
+                loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- VIDEO 2 - Modifica aquí la URL del video de Vimeo -->
+    <div class="motion-item">
+      <div class="video-wrapper" style="padding-bottom: 177.78%;">
+        <iframe src="https://player.vimeo.com/video/1166228423?background=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                title="La Yarda Bar Logo Animation"
+                loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- About Me Section - Sección "sobre mí" -->
+<section id="about" class="about-section">
+  <h2 class="section-title">ABOUT ME</h2>
+  <div class="about-inner reveal-section">
+
+    <!-- Columna izquierda: Foto y descripción personal -->
+    <div class="about-left">
+      <!-- Modifica aquí la URL de tu foto de perfil -->
+      <div class="profile-image">
+        <img src="https://i.postimg.cc/dQ9h8KNW/pppic.png" alt="Manu - Digital 3D Artist">
+      </div>
+      <!-- Modifica aquí tu título y descripción personal -->
+      <h2 class="about-heading">Creative / Digital Artist / Pop culture Geek</h2>
+      <p>I am passionate about art and technology, particularly in creating characters for collectibles, films, and games. However, I am always open to any creative project.</p>
+      <p>From illustration and motion graphics to 3D, I am always pushing myself to improve and explore new creative challenges.</p>
+    </div>
+
+    <!-- Columna centro: Experiencia laboral -->
+    <div class="about-center">
+      <h3 class="subsection-title">EXPERIENCE</h3>
+      <div class="education-timeline">
+        <div class="timeline-line"></div>
+        
+        <!-- EXPERIENCIA 1 - Modifica aquí tu experiencia laboral -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Freelance 3D Artist</h3>
+            <p>Digital Sculpting and Character Modeling for indie projects.</p>
+          </div>
+        </div>
+        
+        <!-- EXPERIENCIA 2 - Modifica aquí tu experiencia laboral -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Archvillain Games 3D Artist</h3>
+            <p>Digital sculpting, environment design and asset creation for collectibles.</p>
+          </div>
+        </div>
+        
+        <!-- EXPERIENCIA 3 - Modifica aquí tu experiencia laboral -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Graphic Designer & Motion</h3>
+            <p>Creation of visual content and motion graphics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna derecha: Educación -->
+    <div class="about-right">
+      <h3 class="subsection-title">EDUCATION</h3>
+      <div class="education-timeline">
+        <div class="timeline-line"></div>
+        
+        <!-- EDUCACIÓN 1 - Modifica aquí tu educación -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Master Degree in Character Creation for films and games.</h3>
+            <p>ANIMUM Creativity advanced school (Spain)</p>
+          </div>
+        </div>
+        
+        <!-- EDUCACIÓN 2 - Modifica aquí tu educación -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Bachelor Degree in 3D Production and Animation.</h3>
+            <p>Universidad InterNaciones (Guatemala)</p>
+          </div>
+        </div>
+        
+        <!-- EDUCACIÓN 3 - Modifica aquí tu educación -->
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Fundamentals of 3D Production.</h3>
+            <p>ANIMUM Creativity advanced school (Spain)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section - Sección de contacto -->
+<footer id="contact">
+  <div class="contact-container reveal-section">
+    <h2 class="section-title">GET IN TOUCH</h2>
+    <div class="contact-container">
+        <!-- Formulario de contacto - Modifica aquí el enlace de Formspree si cambias de servicio -->
+        <form action="https://formspree.io/f/mgolrlde" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+
+            <input type="text" name="_gotcha" style="display:none">
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+    <!-- Redes sociales - Modifica aquí tus enlaces de redes sociales -->
+    <div class="social-links">
+      <a href="https://www.instagram.com/manumc.art/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+        <span class="social-text">Instagram</span>
+      </a>
+      <a href="https://www.behance.net/TheVash" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+        <i class="fab fa-behance"></i>
+        <span class="social-text">Behance</span>
+      </a>
+      <a href="https://www.tiktok.com/@manummarroquin" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+        <span class="social-text">TikTok</span>
+      </a>
+      <a href="https://www.artstation.com/vash" target="_blank" rel="noopener noreferrer" aria-label="ArtStation">
+        <i class="fab fa-artstation"></i>
+        <span class="social-text">ArtStation</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jose-manuel-marroquin-carrillo/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+        <span class="social-text">LinkedIn</span>
+      </a>
+    </div>
+    <!-- Modifica aquí el texto del footer -->
+    <div class="footer-bottom">
+      <span>© 2026 MANU — CODE WITH PASSION / AND HELP</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts necesarios -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
