@@ -276,24 +276,27 @@
     <h2 class="section-title">GET IN TOUCH</h2>
     <div class="contact-container">
         <!-- Formulario de contacto - Modifica aquí el enlace de Formspree si cambias de servicio -->
-        <form action="https://formspree.io/f/mgolrlde" method="POST">
-
-  <!-- Honeypot anti-spam -->
+<form action="https://formspree.io/f/mgolrlde" method="POST">
   <input type="text" name="_gotcha" style="display:none">
-
+  
+  <label>
+    Tu nombre:
+    <input type="text" name="name" placeholder="Tu nombre" required>
+  </label>
+  
   <label>
     Tu correo:
-    <input type="email" name="email" required>
+    <input type="email" name="email" placeholder="tu@email.com" required>
   </label>
-
+  
   <label>
     Tu mensaje:
-    <textarea name="message" rows="5" required></textarea>
+    <textarea name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
   </label>
-
-  <button type="submit">Enviar</button>
-
+  
+  <button type="submit">Enviar mensaje</button>
 </form>
+        
     </div>
     <!-- Redes sociales - Modifica aquí tus enlaces de redes sociales -->
     <div class="social-links">
